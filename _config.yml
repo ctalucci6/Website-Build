@@ -1,0 +1,23 @@
+title: "Your Name"
+description: "Personal website"
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
